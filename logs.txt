@@ -1,0 +1,124 @@
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://172.28.0.12:8501
+  External URL: http://34.80.160.79:8501
+
+USER_AGENT environment variable not set, consider setting it to identify your requests.
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+2024-09-10 10:01:09.500500: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:485] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-09-10 10:01:09.546171: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:8454] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-09-10 10:01:09.559627: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1452] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-09-10 10:01:09.592190: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-09-10 10:01:11.699987: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/content/app.py:61: LangChainDeprecationWarning: The function `initialize_agent` was deprecated in LangChain 0.1.0 and will be removed in 1.0. Use Use new agent constructor methods like create_react_agent, create_json_agent, create_structured_chat_agent, etc. instead.
+  search_agent=initialize_agent(tools, llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, handling_parsing_errors=True)
+/content/app.py:65: LangChainDeprecationWarning: The method `Chain.run` was deprecated in langchain 0.1.0 and will be removed in 1.0. Use invoke instead.
+  response=search_agent.run(st.session_state.messages, callbacks=[st_cb])
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+/content/app.py:11: LangChainDeprecationWarning: Importing StreamlitCallbackHandler from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py is deprecated. Please replace deprecated imports:
+
+>> from /usr/local/lib/python3.10/dist-packages/langchain/callbacks/__init__.py import StreamlitCallbackHandler
+
+with new imports of:
+
+>> from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+You can use the langchain cli to **automatically** upgrade many imports. Please see documentation here <https://python.langchain.com/v0.2/docs/versions/v0_2/>
+  from langchain.callbacks import StreamlitCallbackHandler
+/usr/local/lib/python3.10/dist-packages/transformers/tokenization_utils_base.py:1601: FutureWarning: `clean_up_tokenization_spaces` was not set. It will be set to `True` by default. This behavior will be depracted in transformers v4.45, and will be then set to `False` by default. For more details check this issue: https://github.com/huggingface/transformers/issues/31884
+  warnings.warn(
+  Stopping...
